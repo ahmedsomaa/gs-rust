@@ -23,3 +23,7 @@ bin/
 
 # Ignore all `library.jar` in `bin` dir
 */bin/library.jar
+
+# Ignore target folders
+
+**/target
