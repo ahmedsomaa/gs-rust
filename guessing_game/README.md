@@ -20,9 +20,11 @@ A rust program to implement a simple guessing game.
   `Cargo.toml` file using the following format `<crate_name> = "<crate_version>"`. For example, to add `rand` crate,
   add `rand = "0.8.3"`. This tells cargo to add the `rand` crate alongside with its dependencies compatible with
   the version specified. Then you need to run the `cargo build` command to bring the `rand` and its dependencies to
-  your project so you can use its functinality.
+  your project so you can use its functionality.
 - [Crates.io](https://crates.io) is a registery for rust community crates that you can add to your project.
 
 ### `match` experssion
 
-A `match` expression is made up of _arms_. An arm consists of a _pattern_ to match against, and the code that should be run if the value given to `match` fits that arm’s pattern. Rust takes the value given to `match` and looks through each arm’s pattern in turn.
+A `match` expression is made up of _arms_. An arm consists of a _pattern_ to match against, and the code that should be
+run if the value given to `match` fits that arm’s pattern. Rust takes the value given to `match` and looks through each
+arm’s pattern in turn.
