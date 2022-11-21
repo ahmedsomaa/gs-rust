@@ -7,7 +7,7 @@ A rust program to print `Hello, cargo!` to the screen and to get familiar with b
 Cargo is Rust’s build system and package manager. Some basic cargo commands include:
 
 - `cargo new <my_project>` to create a new cargo project. This command would create a new project under the `my_project`
-  directory. The directory chould have a `src` directory and a `cargo.toml` file which contains information about
+  directory. The directory should have a `src` directory and a `cargo.toml` file which contains information about
   the project's name, cargo version and edition. The `src` directory contains one file `main.rs`.
 - `cargo build` to build your project. This command builds the project for the development environment and places
   the build artifacts under the `target/debug/` directory. To build for release, you need to pass the `--release`
